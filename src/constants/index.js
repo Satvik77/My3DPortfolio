@@ -16,7 +16,6 @@ import {
     mongodb,
     git,
     figma,
-    docker,
     BBR,
     RTU,
     AEGS,

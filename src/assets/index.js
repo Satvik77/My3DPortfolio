@@ -27,8 +27,8 @@ import threejs from "./tech/threejs.svg";
 import RTU from "./company/RTU.jpg";
 import BBR from "./company/BBR.png";
 
-import AEGS from "./AEGS.png";
-import Pulmones from "./Pulmones.png";
+import AEGS from "./AEGS.jpg";
+import Pulmones from "./Pulmones.jpg";
 import FoodApp from "./FoodApp.png";
 import ERDeepak from "./ERDeepak.jpg";
 import CAPriyank from "./CAPriyank.jpeg";
