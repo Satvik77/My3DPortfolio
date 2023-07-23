@@ -7,13 +7,12 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
+import css from "./tech/css.jpg";
 import Java from "./tech/Java.png";
 import python from "./tech/python.jpg";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
+import html from "./tech/html.jpg";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
 
 
 import RTU from "./company/RTU.jpg";
@@ -41,7 +40,6 @@ export {
   git,
   html,
   javascript,
-  mongodb,
   RTU,
   BBR,
   AEGS,

@@ -8,7 +8,6 @@ import {
     javascript,
     html,
     css,
-    mongodb,
     git,
     BBR,
     RTU,
@@ -74,10 +73,6 @@ import {
     {
       name: "Java",
       icon: Java,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "git",
