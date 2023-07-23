@@ -22,7 +22,7 @@ import AEGS from "./AEGS.jpg";
 import Pulmones from "./Pulmones.jpg";
 import FoodApp from "./FoodApp.png";
 import ERDeepak from "./ERDeepak.jpg";
-import CAPriyank from "./CAPriyank.jpeg";
+import CAPriyank from "./CAPriyank.jpg";
 import HRPankaj from "./HRPankaj.jpg";
 
 export {
