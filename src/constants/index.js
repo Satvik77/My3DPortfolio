@@ -6,12 +6,8 @@ import {
     Java,
     python,
     javascript,
-    typescript,
     html,
     css,
-    reactjs,
-    tailwind,
-    nodejs,
     mongodb,
     git,
     BBR,
@@ -22,7 +18,6 @@ import {
     ERDeepak,
     CAPriyank,
     HRPankaj,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -81,28 +76,8 @@ import {
       icon: Java,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
