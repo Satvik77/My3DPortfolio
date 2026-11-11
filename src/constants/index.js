@@ -1,22 +1,4 @@
-import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  threejs,
-} from "../assets";
+import * as assets from "../assets";
 
 import AEGS from "../assets/AEGS.jpg";
 import FoodApp from "../assets/FoodApp.png";
@@ -45,82 +27,47 @@ export const navLinks = [
 const services = [
   {
     title: "0-to-1 Product Builder & Strategy",
-    icon: web,
+    icon: assets.web || assets.creator,
   },
   {
     title: "Applied AI & Agentic Workflows",
-    icon: mobile,
+    icon: assets.mobile || assets.web,
   },
   {
     title: "Solutions & Automation Engineer",
-    icon: backend,
+    icon: assets.backend || assets.web,
   },
   {
     title: "Data Pipelines & ROI Analytics",
-    icon: creator,
+    icon: assets.creator || assets.backend,
   },
 ];
 
+// Automatically includes only the tech icons that exist in your src/assets/index.js
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
+  { name: "HTML 5", icon: assets.html },
+  { name: "CSS 3", icon: assets.css },
+  { name: "JavaScript", icon: assets.javascript },
+  { name: "React JS", icon: assets.reactjs },
+  { name: "Tailwind CSS", icon: assets.tailwind },
+  { name: "Node JS", icon: assets.nodejs },
+  { name: "MongoDB", icon: assets.mongodb },
+  { name: "Three JS", icon: assets.threejs },
+  { name: "git", icon: assets.git },
+  { name: "Python", icon: assets.python },
+  { name: "Java", icon: assets.java },
+  { name: "C++", icon: assets.cpp },
+  { name: "SQL", icon: assets.sql || assets.mysql },
+  { name: "Google Cloud", icon: assets.gcp || assets.googlecloud },
+  { name: "docker", icon: assets.docker },
+  { name: "figma", icon: assets.figma },
+].filter((tech) => Boolean(tech.icon));
 
 const experiences = [
   {
     title: "Automation & Solutions Engineer",
     company_name: "Accenture (Bengaluru, India)",
-    icon: web,
+    icon: assets.accenture || assets.web || assets.creator,
     iconBg: "#383E56",
     date: "Aug 2026 - Present",
     points: [
@@ -132,7 +79,7 @@ const experiences = [
   {
     title: "0-to-1 Product Developer & Technical Solutions Consultant II",
     company_name: "Teleperformance (Client: Google / Alphabet Account — Hyderabad)",
-    icon: backend,
+    icon: assets.teleperformance || assets.google || assets.backend || assets.web,
     iconBg: "#E6DEDD",
     date: "Nov 2023 - Aug 2026",
     points: [
