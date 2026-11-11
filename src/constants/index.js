@@ -1,31 +1,27 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    Java,
-    python,
-    javascript,
-    html,
-    css,
-    git,
-    BBR,
-    RTU,
-    AEGS,
-    Pulmones,
-    FoodApp,
-    ERDeepak,
-    CAPriyank,
-    HRPankaj,
-  } from "../assets";
-  
-  // 1. Keep your existing imports at the top of src/constants/index.js!
-// Example imports already in your file:
-// import { mobile, backend, creator, web, javascript, html, css, reactjs, tailwind, nodejs, git, ... } from "../assets";
-// import AEGS from "../assets/AEGS.jpg";
-// import FoodApp from "../assets/FoodApp.png";
-// import CAPriyank from "../assets/CAPriyank.jpg";
-// import ERDeepak from "../assets/ERDeepak.jpg";
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  threejs,
+} from "../assets";
+
+import AEGS from "../assets/AEGS.jpg";
+import FoodApp from "../assets/FoodApp.png";
+import CAPriyank from "../assets/CAPriyank.jpg";
+import ERDeepak from "../assets/ERDeepak.jpg";
 
 export const navLinks = [
   {
@@ -46,30 +42,84 @@ export const navLinks = [
   },
 ];
 
-export const services = [
+const services = [
   {
     title: "0-to-1 Product Builder & Strategy",
-    icon: web, // Uses your existing icon import
+    icon: web,
   },
   {
     title: "Applied AI & Agentic Workflows",
-    icon: mobile, // Uses your existing icon import
+    icon: mobile,
   },
   {
     title: "Solutions & Automation Engineer",
-    icon: backend, // Uses your existing icon import
+    icon: backend,
   },
   {
     title: "Data Pipelines & ROI Analytics",
-    icon: creator, // Uses your existing icon import
+    icon: creator,
   },
 ];
 
-export const experiences = [
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+];
+
+const experiences = [
   {
     title: "Automation & Solutions Engineer",
     company_name: "Accenture (Bengaluru, India)",
-    // Replace `icon` below with whatever company icon variable you use in your assets, or `web` / `creator`
     icon: web,
     iconBg: "#383E56",
     date: "Aug 2026 - Present",
@@ -82,7 +132,6 @@ export const experiences = [
   {
     title: "0-to-1 Product Developer & Technical Solutions Consultant II",
     company_name: "Teleperformance (Client: Google / Alphabet Account — Hyderabad)",
-    // Replace `icon` below with your existing Teleperformance/Google icon variable
     icon: backend,
     iconBg: "#E6DEDD",
     date: "Nov 2023 - Aug 2026",
@@ -97,7 +146,26 @@ export const experiences = [
   },
 ];
 
-export const projects = [
+const testimonials = [
+  {
+    testimonial:
+      "Satvik's ability to translate complex operational bottlenecks into automated, data-driven web products saved our teams dozens of hours every month.",
+    name: "CA Priyank",
+    designation: "Partner",
+    company: "Enterprise Client",
+    image: CAPriyank,
+  },
+  {
+    testimonial:
+      "An exceptional technical product builder who bridges full-stack engineering with real business ROI and seamless user experience.",
+    name: "Er. Deepak",
+    designation: "Engineering Lead",
+    company: "Tech Solutions",
+    image: ERDeepak,
+  },
+];
+
+const projects = [
   {
     name: "TP Buddy — Autonomous Operational Decision Agent",
     description:
@@ -108,7 +176,7 @@ export const projects = [
       { name: "Python", color: "pink-text-gradient" },
       { name: "Agentic-AI", color: "blue-text-gradient" },
     ],
-    image: AEGS, // Mapped to your existing asset import; swap if preferred
+    image: AEGS,
     source_code_link: "https://github.com/Satvik77",
   },
   {
@@ -120,7 +188,7 @@ export const projects = [
       { name: "JavaScript", color: "green-text-gradient" },
       { name: "Looker-Studio", color: "pink-text-gradient" },
     ],
-    image: FoodApp, // Mapped to your existing asset import; swap if preferred
+    image: FoodApp,
     source_code_link: "https://github.com/Satvik77",
   },
   {
@@ -160,3 +228,5 @@ export const projects = [
     source_code_link: "https://github.com/Satvik77",
   },
 ];
+
+export { services, technologies, experiences, testimonials, projects };
