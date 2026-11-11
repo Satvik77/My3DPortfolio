@@ -44,23 +44,20 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-       <b> Welcome to my SDE Fresher Portfolio !</b><br />
-       <br />
-Hello! I'm Satvik Sharma, an aspiring Software Development Engineer (SDE) with a passion for coding and problem-solving. This portfolio is a brief glimpse into my skills, projects, and achievements as I step into the exciting world of software development.
-
-Throughout my academic journey, I've honed my proficiency in HTML, CSS, JavaScript, C++, Python, Java, DSA, Oops, DBMS(MySQL) . <br />I love exploring web development, machine learning and have completed several projects that showcase my ability to design and implement innovative solutions.
-
-As a quick learner and an enthusiastic team player, I'm eager to contribute my skills and embrace new challenges. This portfolio represents a snapshot of my potential and determination to make a meaningful impact in the tech industry.
-
-Thank you for visiting my portfolio, and I'm looking forward to new opportunities to grow and thrive as an SDE.
-<br /><br />
-<i>Satvik Sharma</i><br />
-<b>SDE Fresher | Aspiring Technologist</b>
-
-      </motion.p>
+  variants={fadeIn("", "", 0.1, 1)}
+  className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+>
+  Entrepreneurial Technical Product Builder and Solutions Engineer with 3+ years of experience
+  guiding products from conception to launch across 18 Alphabet/Google lines of business (gTech,
+  YouTube, gCloud, and Developer Support). Proven track record translating ambiguous user problems
+  into prototype-backed PRDs, data-informed roadmaps, and 0-to-1 production tools utilizing
+  Applied AI (Gemini API, LLMs/SLMs, Agentic Workflows, MCP), Python, JavaScript, and
+  BigQuery/GoogleSQL. Delivered 50+ scaled solutions driving $2M+ in validated business value,
+  coached 200+ regional team members through technical AI enablement workshops, and bridged
+  Engineering, UX, Sales, and Operations to deliver user-centric enterprise platforms. Holds a
+  B.Tech in Computer Science & Engineering (CGPA: 8.55/10) from Rajasthan Technical University, Kota,
+  alongside verified Google Cloud and IIT Madras NPTEL credentials in Deep Learning & DBMS.
+</motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
