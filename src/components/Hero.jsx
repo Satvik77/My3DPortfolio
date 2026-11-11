@@ -14,13 +14,32 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Satvik</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a CSE Graduate'23 <br className='sm:block hidden' />
-            and a SDE Fresher..!!
-          </p>
+          <div>
+  <h1 className={`${styles.heroHeadText} text-white`}>
+    Hi, I'm <span className='text-[#915EFF]'>Satvik Sharma</span>
+  </h1>
+  <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+    Technical Product Builder & Solutions Engineer <br className='sm:block hidden' />
+    shipping 0-to-1 AI products, PRDs & scalable automations ($2M+ ROI).
+  </p>
+  <div className='mt-5 flex flex-wrap gap-4 relative z-10'>
+    <a
+      href='/https://drive.google.com/file/d/1thuUodif-ub-5WNcsOJ0HQ1K1EK1A6lT/view?usp=sharing'
+      download='APM-Satvik_Sharma.pdf'
+      className='bg-[#915EFF] hover:bg-[#7c4dff] text-white font-bold py-2.5 px-6 rounded-xl shadow-md transition duration-300'
+    >
+      Download CV
+    </a>
+    <a
+      href='https://www.linkedin.com/in/satvik-sharma-7561b81b5/' 
+      target='_blank'
+      rel='noreferrer'
+      className='bg-tertiary hover:bg-black-100 text-white font-semibold py-2.5 px-6 rounded-xl border border-[#915EFF] transition duration-300'
+    >
+      LinkedIn
+    </a>
+  </div>
+</div>
         </div>
       </div>
 
