@@ -19,209 +19,144 @@ import {
     HRPankaj,
   } from "../assets";
   
-  export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
-  
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "Python Developer",
-      icon: mobile,
-    },
-    {
-      title: "MySQL DB Developer",
-      icon: backend,
-    },
-    {
-      title: "Java Developer",
-      icon: creator,
-    },
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "Python",
-      icon: python,
-    },
-    {
-      name: "Java",
-      icon: Java,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-  ];
-  
-  const experiences = [
-    {
-      title: "Frontend Developer",
-      company_name: "Bit to Byte Robotics ",
-      icon: BBR,
-      iconBg: "#383E56",
-      date: "May 2022 - July 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Machine Learning Developer",
-      company_name: "RTU,Kota",
-      icon: RTU,
-      iconBg: "#E6DEDD",
-      date: "March 2023 - June 2023",
-      points: [
-        "It is an Automated-Essay-Grading-System which is my final year project." , 
-        " We created a web app that can automatically score essays." ,
-        "The grading model was trained using HP Essays Dataset from Kaggle.",
-        "Used Long Short Term Memory (LSTM) network and machine learning algorithms to train model." ,
-        "WebApp was created using Flask framework.",
-      ],
-    },
-    {
-      title: "Full stack Developer (Freelancer)",
-      company_name: "Er Deepak Sharma",
-      icon: ERDeepak,
-      iconBg: "#383E56",
-      date: "June 2023 - July 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Satvik proved me wrong.",
-      name: "Pankaj Sharma",
-      designation: "HR",
-      company: "BBR Robotics",
-      image: HRPankaj,
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Satvik does.",
-      name: "Er Deepak Sharma",
-      designation: "Ex SDE",
-      company: "Intuit",
-      image: ERDeepak,
-    },
-    {
-      testimonial:
-        "After Satvik optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Priyank Joshi",
-      designation: "Ex CA",
-      company: "Arvind Textiles",
-      image: CAPriyank,
-    },
-  ];
-  
-  const projects = [
-    {
-      name: "Automated-Essay-Grading-System",
-      description:
-        "Introducing our Final Year Project: Automated Essay Grading WebApp!Our innovative web app utilizes LSTM networks and machine learning algorithms to automatically score essays. With the HP Essays Dataset from Kaggle, we've trained a robust grading model. Developed using Flask framework, our user-friendly platform streamlines the essay evaluation process for teachers and students alike.  Join us in revolutionizing essay grading!",
-      tags: [
-        {
-          name: "NLTK",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Flask",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Python",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "AI/ML/DL",
-          color: "red-text-gradient",
-        },
-        {
-          name: "Keras",
-          color: "orange-text-gradient",
-        },
-      ],
-      image: AEGS,
-      source_code_link: "https://github.com/Satvik77/Final_Year_Project",
-    },
-    {
-      name: "Pulmones",
-      description:
-        " Welcome to our innovative Lung Health Monitoring and Supervision Website! With the use of JavaScript functions, we engage patients by asking relevant questions and provide Disease Probability assessments for better health management.Harnessing the power of HTML5 and CSS3, we have designed a seamless user experience to ensure user-friendly navigation and accessibility. Our mission is to empower patients with a reliable platform for monitoring and supervision of their lung health.Explore our website and take charge of your lung health today!",
-      tags: [
-        {
-          name: "HTML5",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS3",
-          color: "green-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: Pulmones,
-      source_code_link: "https://github.com/Satvik77/Pulmones",
-    },
-    {
-      name: "Food Delivery Website",
-      description:
-        "Introducing our Responsive Food Delivery Form!Satisfy your cravings with ease using our interactive food delivery form, crafted with HTML, CSS, and JavaScript. Browse through our delectable food item templates, place your order hassle-free, and get ready to indulge in a delightful culinary experience.Our user-friendly design ensures a seamless ordering process, and once you've made your selections, you can even print out your customized bill for your convenience.Get ready to embark on a mouthwatering journey with our Food Delivery Form!",
-      tags: [
-        {
-          name: "HTML5",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS3",
-          color: "green-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: FoodApp,
-      source_code_link: "https://github.com/Satvik77/Food-Delivery-Website",
-    },
-  ];
-  
-  export { services, technologies, experiences, testimonials, projects };
+  // 1. Keep your existing imports at the top of src/constants/index.js!
+// Example imports already in your file:
+// import { mobile, backend, creator, web, javascript, html, css, reactjs, tailwind, nodejs, git, ... } from "../assets";
+// import AEGS from "../assets/AEGS.jpg";
+// import FoodApp from "../assets/FoodApp.png";
+// import CAPriyank from "../assets/CAPriyank.jpg";
+// import ERDeepak from "../assets/ERDeepak.jpg";
+
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Products & AI",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+
+export const services = [
+  {
+    title: "0-to-1 Product Builder & Strategy",
+    icon: web, // Uses your existing icon import
+  },
+  {
+    title: "Applied AI & Agentic Workflows",
+    icon: mobile, // Uses your existing icon import
+  },
+  {
+    title: "Solutions & Automation Engineer",
+    icon: backend, // Uses your existing icon import
+  },
+  {
+    title: "Data Pipelines & ROI Analytics",
+    icon: creator, // Uses your existing icon import
+  },
+];
+
+export const experiences = [
+  {
+    title: "Automation & Solutions Engineer",
+    company_name: "Accenture (Bengaluru, India)",
+    // Replace `icon` below with whatever company icon variable you use in your assets, or `web` / `creator`
+    icon: web,
+    iconBg: "#383E56",
+    date: "Aug 2026 - Present",
+    points: [
+      "Accelerated feature delivery by 22% by collaborating with cross-functional engineering leads and business stakeholders to translate ambiguous client requirements into actionable technical specifications and standardized rollout playbooks.",
+      "Accomplished 99.9% pipeline availability by evaluating system options against risk, scalability, and run-cost metrics to deploy resilient cloud automation frameworks for Fortune 500 accounts.",
+      "Constructed automated end-to-end telemetry and validation harnesses in Python, capturing data logs to guide iterative performance and control enhancements before production deployment.",
+    ],
+  },
+  {
+    title: "0-to-1 Product Developer & Technical Solutions Consultant II",
+    company_name: "Teleperformance (Client: Google / Alphabet Account — Hyderabad)",
+    // Replace `icon` below with your existing Teleperformance/Google icon variable
+    icon: backend,
+    iconBg: "#E6DEDD",
+    date: "Nov 2023 - Aug 2026",
+    points: [
+      "Accomplished an ecosystem of 50+ internal web products, workflow automations, and Chrome extensions across 18 Alphabet LOBs (gTech, YouTube, gCloud, Developer Support), unlocking $2M+ in cumulative business ROI and receiving the Spotlight Award.",
+      "Delivered $500K+ in validated ROI and improved Initial Response Time (IRT) by 24% by identifying user latency bottlenecks, authoring the PRD, and leading the 0-to-1 launch of 'IRT Radar' across global gTech and Trust & Safety queues.",
+      "Architected data ingestion models for IRT Radar using GoogleSQL/PLX ETL pipelines and designed user-centric dashboard interfaces with dynamic filters, real-time alert webhooks, and automated export workflows.",
+      "Achieved a 26% reduction in Average Handle Time (AHT) and $536K in EPP ROI by conceptualizing and shipping 'Cases Connect' AI Sandbox using Gemini API and SLMs, improving customer sentiment scores and CSAT across 18 product lines.",
+      "Eliminated 40+ FTE hours per month by conducting user discovery with frontline operators and launching browser-native Chrome extensions that bridged ticket databases with actionable cloud analytics.",
+      "Spearheaded internal technical outreach by preparing and delivering cross-functional presentations and hands-on workshops on Agentic AI and prompt workflows, standardizing daily operational AI adoption for 200+ team members.",
+    ],
+  },
+];
+
+export const projects = [
+  {
+    name: "TP Buddy — Autonomous Operational Decision Agent",
+    description:
+      "Defined product vision, scoped user journeys, and deployed an agentic L1 decision-support tool delivering automated policy guidance and context retrieval to frontline teams, driving a 30% lift in operational platform utilization.",
+    tags: [
+      { name: "GCP", color: "blue-text-gradient" },
+      { name: "Gemini-API", color: "green-text-gradient" },
+      { name: "Python", color: "pink-text-gradient" },
+      { name: "Agentic-AI", color: "blue-text-gradient" },
+    ],
+    image: AEGS, // Mapped to your existing asset import; swap if preferred
+    source_code_link: "https://github.com/Satvik77",
+  },
+  {
+    name: "IRT Radar — Global Queue Latency & Alerting Platform",
+    description:
+      "Identified user latency bottlenecks, authored the 0-to-1 PRD, and architected GoogleSQL/PLX ETL pipelines with real-time alert webhooks across global gTech and Trust & Safety queues, improving IRT by 24% and unlocking $500K+ in validated ROI.",
+    tags: [
+      { name: "GoogleSQL-PLX", color: "blue-text-gradient" },
+      { name: "JavaScript", color: "green-text-gradient" },
+      { name: "Looker-Studio", color: "pink-text-gradient" },
+    ],
+    image: FoodApp, // Mapped to your existing asset import; swap if preferred
+    source_code_link: "https://github.com/Satvik77",
+  },
+  {
+    name: "Cases Connect — Enterprise AI Sandbox",
+    description:
+      "Conceptualized and shipped a 0-to-1 AI Sandbox utilizing Gemini API and Small Language Models (SLMs) across 18 Alphabet product lines, reducing Average Handle Time (AHT) by 26% and delivering $536K in validated EPP ROI.",
+    tags: [
+      { name: "Gemini-API", color: "blue-text-gradient" },
+      { name: "SLMs", color: "green-text-gradient" },
+      { name: "Chrome-Extensions-API", color: "pink-text-gradient" },
+    ],
+    image: AEGS,
+    source_code_link: "https://github.com/Satvik77",
+  },
+  {
+    name: "Shared Gemini Workspace — Real-Time Collaborative Tool",
+    description:
+      "Built and launched a real-time collaborative workspace integrating Gemini API with full-stack web architectures and WebSockets, solving multi-user prompt state synchronization to enable synchronized multi-stakeholder evaluations.",
+    tags: [
+      { name: "Full-Stack-Web", color: "blue-text-gradient" },
+      { name: "LLM-APIs", color: "green-text-gradient" },
+      { name: "WebSockets", color: "pink-text-gradient" },
+    ],
+    image: FoodApp,
+    source_code_link: "https://github.com/Satvik77",
+  },
+  {
+    name: "Automated Document Intelligence & Semantic Scoring",
+    description:
+      "Engineered a data-driven text classification engine incorporating NLP models, automated regression suites, and strict acceptance criteria, reducing manual audit turnaround time by 35% through algorithmic consistency checks.",
+    tags: [
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "NLP-Models", color: "green-text-gradient" },
+      { name: "CI-CD", color: "pink-text-gradient" },
+    ],
+    image: AEGS,
+    source_code_link: "https://github.com/Satvik77",
+  },
+];
